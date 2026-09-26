@@ -4,7 +4,7 @@ const axios = require("axios");
 const app = express();
 
 const PORT = 3000;
-const FLASK_BACKEND = "http://localhost:5000";
+const FLASK_BACKEND = "http://backend:5000";
 
 // Middleware
 app.use(express.json());
